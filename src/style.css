@@ -51,6 +51,12 @@ form {
     line-height: 20px;
 }
 
+.submit-button:hover {
+    cursor: pointer;
+    background-color: rgb(186, 25, 114);
+    border: 1.5px solid rgb(114, 5, 65);
+  }
+
 .poem {
     font-size: 16px;
     background-color: white;
@@ -64,8 +70,6 @@ form {
 footer {
     text-align: center;
     font-size: 15px;
-    
-
 }
 
 a {
