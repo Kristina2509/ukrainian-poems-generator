@@ -5,7 +5,7 @@
         <!-- <meta http-equiv="X-UA-Compatible" content="IE-edge"> -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="src/style.css" />
-       
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
         <title>AI Ukrainian poem generatar</title>
     </head>
 
@@ -16,7 +16,7 @@
             </header>
 
             <main>
-                <form>
+                <form id="poem-generator-form">
                     <input type="text"
                     placeholder="Enter the topic of the Ukrainian poem " 
                     autofocus
@@ -27,11 +27,7 @@
                 </form> 
 
 
-                <div class="poem">
-                    The poem will go here
-                    <br />
-                    The poem will go here 
-                </div>
+                <div class="poem" id="poem"></div>
             </main>
 
             <footer> 
