@@ -95,7 +95,7 @@ a {
 .generating {
     animation: blink-animation 1s steps(5, start) infinite;
 }
-  }
+
 
 @keyframes blink-animation {
   to {
